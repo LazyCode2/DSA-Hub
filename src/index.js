@@ -42,14 +42,7 @@ app.get('/learn', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'chapter.html'));
 });
 
-// Handle favicon explicitly
-app.get('/favicon.ico', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'favicon.ico'));
-});
-
 // Start server for debug only
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
-
-module.exports = app;
