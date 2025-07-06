@@ -12,6 +12,7 @@
   "dependencies": {
     "compression": "^1.8.0",
     "express": "^5.1.0",
-    "helmet": "^8.1.0"
+    "helmet": "^8.1.0",
+    "serverless-http": "^3.0.0"
   }
 }
